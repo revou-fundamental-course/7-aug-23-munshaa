@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link href="src/style.css" rel="stylesheet">
+    <title>Kalkulator Segitiga</title>
+</head>
+<body>
+   <div class="container">
+    <h1>WELCOME TO TRIANGLE</h1>
+    <h3>Menghitung Luas </h3>
+    <img src="asset/pict/luas.jpg" alt="">
+    <table>
+        <tr>
+            <td>Alas</td>
+            <td>=</td>
+            <td><input type="number" id="alas" name="alas"></td>
+        </tr>
+        <tr>
+            <td>Tinggi</td>
+            <td>=</td>
+            <td><input type="number" id="tinggi" name="tinggi"></td>
+        </tr>
+        <tr>
+            <td>Luas</td>
+            <td>=</td>
+            <td><input type="number" id="luas" name="luas" disabled="true" size="10"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><input type="button" value="hitung" onclick="hitungluas()"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><input type="reset" value="Reset" ></td>
+        </tr>
+    </table>
+    <h3>Menghitung Keliling</h3>
+    <img src="asset/pict/sisi.png" alt="">
+    <table>
+        <tr>
+            <td>Sisi 1</td>
+            <td>=</td>
+            <td><input type="number" id="sisi1" name="sisi1"></td>
+        </tr>
+        <tr>
+            <td>Sisi 2</td>
+            <td>=</td>
+            <td><input type="number" id="sisi2" name="sisi2"></td>
+        </tr>
+        <tr>
+            <td>Sisi 3</td>
+            <td>=</td>
+            <td><input type="number" id="sisi3" name="sisi3"></td>
+        </tr>
+        <tr>
+            <td>Keliling</td>
+            <td>=</td>
+            <td><input type="number" id="keliling" name="keliling" disabled="true" size="10"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><input type="button" value="hitung" onclick="hitungkeliling()"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><input type="reset" value="Reset" ></td>
+        </tr>
+    </table>
+   <script src="./src/script.js"></script>
+</body>
+</html>
